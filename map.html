@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8z+3xg9F1T+0PpmbJ6Bp1Q7P1D8y+7g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -73,28 +73,28 @@
           <div class="filter-list">
             <label class="filter-row">
               <input type="checkbox" class="category-filter" value="Kesehatan" checked>
-              <span class="legend-swatch health"></span>
+              <span class="legend-icon health"><i class="fa-solid fa-hospital"></i></span>
               <span>Kesehatan</span>
               <strong id="count-health">0</strong>
             </label>
 
             <label class="filter-row">
               <input type="checkbox" class="category-filter" value="Pendidikan" checked>
-              <span class="legend-swatch education"></span>
+              <span class="legend-icon education"><i class="fa-solid fa-school"></i></span>
               <span>Pendidikan</span>
               <strong id="count-education">0</strong>
             </label>
 
             <label class="filter-row">
               <input type="checkbox" class="category-filter" value="Pemerintahan" checked>
-              <span class="legend-swatch government"></span>
+              <span class="legend-icon government"><i class="fa-solid fa-building-columns"></i></span>
               <span>Pemerintahan</span>
               <strong id="count-government">0</strong>
             </label>
 
             <label class="filter-row">
               <input type="checkbox" class="category-filter" value="Ekonomi" checked>
-              <span class="legend-swatch economy"></span>
+              <span class="legend-icon economy"><i class="fa-solid fa-store"></i></span>
               <span>Ekonomi</span>
               <strong id="count-economy">0</strong>
             </label>
@@ -144,12 +144,9 @@
         <section class="sidebar-block">
           <div class="access-card">
             <span class="mini-kicker">ACCESSIBILITY</span>
-            <h3>Nearest Facility Analysis</h3>
-            <p>
-              Modul ini disiapkan untuk menampilkan fasilitas terdekat berdasarkan
-              centroid kalurahan atau titik origin lain.
-            </p>
-            <button id="accessButton" class="btn btn-primary btn-small">Preview Module</button>
+            <h3>Analisis Jangkauan & Rute</h3>
+            <p>Gunakan lokasi saat ini atau tandai titik origin untuk membuat buffer, melihat fasilitas dalam jangkauan, dan menghitung rute terpendek pada jaringan jalan.</p>
+            <button id="accessButton" class="btn btn-primary btn-small"><i class="fa-solid fa-route"></i>&nbsp; Buka Analisis</button>
           </div>
         </section>
 
@@ -165,34 +162,63 @@
       </div>
 
       <div class="map-legend">
-        <strong>Legenda</strong>
-        <span><i class="legend-swatch health"></i>Kesehatan</span>
-        <span><i class="legend-swatch education"></i>Pendidikan</span>
-        <span><i class="legend-swatch government"></i>Pemerintahan</span>
-        <span><i class="legend-swatch economy"></i>Ekonomi</span>
+        <strong>Legenda fasilitas</strong>
+        <span><span class="legend-icon health"><i class="fa-solid fa-hospital"></i></span>Kesehatan</span>
+        <span><span class="legend-icon education"><i class="fa-solid fa-school"></i></span>Pendidikan</span>
+        <span><span class="legend-icon government"><i class="fa-solid fa-building-columns"></i></span>Pemerintahan</span>
+        <span><span class="legend-icon economy"><i class="fa-solid fa-store"></i></span>Ekonomi</span>
       </div>
 
       <section id="accessPanel" class="access-panel hidden">
-        <button id="closeAccessPanel" class="panel-close">×</button>
-        <span class="eyebrow">ACCESSIBILITY MODULE</span>
-        <h2>Preview accessibility workflow</h2>
-        <p>
-          Modul ini memperlihatkan konsep dasar analisis aksesibilitas, yaitu menghubungkan
-          origin pada kalurahan terpilih dengan fasilitas tujuan melalui jaringan jalan untuk
-          mengevaluasi kedekatan layanan publik.
-        </p>
+        <button id="closeAccessPanel" class="panel-close" aria-label="Tutup panel">×</button>
+        <span class="eyebrow">ACCESSIBILITY ANALYSIS</span>
+        <h2>Jangkauan fasilitas & shortest path</h2>
+        <p class="access-intro">Tentukan origin, pilih radius dan kategori fasilitas. Sistem akan membuat buffer, menghitung fasilitas dalam jangkauan, lalu mencari fasilitas terdekat melalui jaringan jalan yang tersedia.</p>
 
-        <div class="access-flow">
-          <span>Origin</span>
-          <b>→</b>
-          <span>Road Network</span>
-          <b>→</b>
-          <span>Nearest Facility</span>
+        <div class="origin-actions">
+          <button id="myLocation" class="access-action primary-action"><i class="fa-solid fa-location-crosshairs"></i> Lokasi saya</button>
+          <button id="markOrigin" class="access-action"><i class="fa-solid fa-location-dot"></i> Tandai di peta</button>
+        </div>
+        <div id="originStatus" class="origin-status"><i class="fa-regular fa-circle"></i> Belum ada origin</div>
+
+        <div class="access-form-grid">
+          <label>
+            <span>Kategori tujuan</span>
+            <select id="accessCategory" class="select-field">
+              <option value="Semua">Semua fasilitas</option>
+              <option value="Kesehatan">Kesehatan</option>
+              <option value="Pendidikan">Pendidikan</option>
+              <option value="Pemerintahan">Pemerintahan</option>
+              <option value="Ekonomi">Ekonomi</option>
+            </select>
+          </label>
+          <label>
+            <span>Radius buffer</span>
+            <select id="bufferRadius" class="select-field">
+              <option value="500">500 m</option>
+              <option value="1000" selected>1 km</option>
+              <option value="1500">1,5 km</option>
+              <option value="2000">2 km</option>
+              <option value="3000">3 km</option>
+            </select>
+          </label>
         </div>
 
-        <div class="access-note">
-          <strong>Untuk versi malam ini:</strong>
-          fokuskan analisis ke fasilitas kesehatan terlebih dahulu agar scope tetap ringan.
+        <div class="analysis-buttons">
+          <button id="analyzeAccess" class="btn btn-primary btn-small" disabled><i class="fa-solid fa-magnifying-glass-location"></i>&nbsp; Analisis akses</button>
+          <button id="clearAnalysis" class="btn btn-secondary btn-small"><i class="fa-solid fa-eraser"></i>&nbsp; Bersihkan</button>
+        </div>
+
+        <div id="accessResults" class="access-results hidden">
+          <div class="access-metrics">
+            <article><span>Dalam buffer</span><strong id="accessCount">0</strong><small>fasilitas / <b id="accessRadiusLabel">-</b></small></article>
+            <article><span>Jarak lurus</span><strong id="nearestDistance">-</strong><small>ke tujuan terpilih</small></article>
+            <article class="wide"><span>Fasilitas tujuan</span><strong id="nearestName">-</strong><small id="routeMode">-</small></article>
+            <article class="wide route-metric"><span>Shortest path</span><strong id="routeDistance">-</strong><small>jarak jaringan + konektor origin/tujuan</small></article>
+          </div>
+          <div class="result-list-heading">Fasilitas di dalam buffer <span>klik untuk membuka popup</span></div>
+          <div id="bufferFacilityList" class="buffer-facility-list"></div>
+          <p class="method-note"><i class="fa-solid fa-circle-info"></i> Buffer menggunakan jarak radius dari origin. Shortest path dihitung pada simpul jaringan jalan yang tersedia; origin dan fasilitas dihubungkan ke simpul jalan terdekat.</p>
         </div>
       </section>
     </main>

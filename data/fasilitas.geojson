@@ -1,118 +1,2642 @@
 {
-"type": "FeatureCollection",
-"name": "fasilitas",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1, "id_src": 385, "nama": "SD NEGERI CORONGAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Corongan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.421519087711516, -7.776497030394133, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 2, "id_src": 386, "nama": "SD NEGERI MUSTOKOREJO", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Sopalan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.429018643733528, -7.760983410407548, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 3, "id_src": 387, "nama": "SD NEGERI DEPOK I", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Setan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.432775390025213, -7.760418508422331, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 4, "id_src": 388, "nama": "SD NEGERI TIMBULHARJO", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Timbulrejo", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.42318300161557, -7.756733510317983, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 5, "id_src": 389, "nama": "SD NEGERI NANGGULAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Nanggulan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.431753308851995, -7.775200687829101, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 6, "id_src": 390, "nama": "SD NEGERI RINGINSARI", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Ringinsari", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.434600096475549, -7.772174218850414, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 7, "id_src": 391, "nama": "SD NEGERI DEPOK II", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Manisrejo", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.439526410477399, -7.765793303252441, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 8, "id_src": 392, "nama": "SD NEGERI TAJEM", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Banjeng", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.439149349588021, -7.751088203290208, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 9, "id_src": 393, "nama": "SMKS YPKK 3 SLEMAN", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Maguwoharjo", "alamat": "Karangnongko", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.424064462192661, -7.764244891174286, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 10, "id_src": 394, "nama": "SMKN 1 DEPOK", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Maguwoharjo", "alamat": "Maguwo", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.430893036429921, -7.765527281212175, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 11, "id_src": 395, "nama": "SMP NEGERI 3 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Maguwoharjo", "alamat": "Sopalan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.428237304180541, -7.761465252121272, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 12, "id_src": 396, "nama": "SMP DIPONEGORO DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Maguwoharjo", "alamat": "Depok", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.440326637636318, -7.759738614325527, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 13, "id_src": 397, "nama": "SD NEGERI MAGUWOHARJO I", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Nanggulan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.431128164506063, -7.77502532667982, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 14, "id_src": 398, "nama": "SMP MUHAMMADIYAH 1 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Maguwoharjo", "alamat": "Setan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.433519440299378, -7.762845220329909, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 15, "id_src": 399, "nama": "SD NEGERI KALONGAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Kalongan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.42632198661093, -7.783682905481649, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 16, "id_src": 400, "nama": "SMKS DIPONEGORO DEPOK", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Maguwoharjo", "alamat": "Sembego", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.439649677060004, -7.760351021440348, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 17, "id_src": 401, "nama": "SD NEGERI NGRINGIN CONCAT", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Ngropoh", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.405358169268027, -7.761734076869714, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 18, "id_src": 402, "nama": "SD MUHAMMADIYAH CONDONGCATUR", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Ngropoh", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.406987108413645, -7.761677424936262, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 19, "id_src": 403, "nama": "SD NEGERI KENTUNGAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Kentungan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.387223358871736, -7.749442945949943, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 20, "id_src": 404, "nama": "SD NEGERI PERUMNAS 3", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Dero", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.411151783506455, -7.755510053948503, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 21, "id_src": 405, "nama": "SD NEGERI PERUMNAS CONDONGCATUR", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Ngringin", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.407115537803492, -7.756003390765411, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 22, "id_src": 406, "nama": "SD NEGERI GEJAYAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Gejayan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.395655798033005, -7.757329216077476, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 23, "id_src": 407, "nama": "SD MUHAMMADIYAH KAYEN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Cikaldempet", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.385644443129777, -7.741656101044573, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 24, "id_src": 408, "nama": "SD KANISIUS SENGKAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Sengkan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.392084244057884, -7.746585967351755, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 25, "id_src": 409, "nama": "SMAS MANDALA BHAKTI", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Condongcatur", "alamat": "Gejayan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.395629261206835, -7.757634642992151, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 26, "id_src": 410, "nama": "SMP NEGERI 1 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Condongcatur", "alamat": "Gejayan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.394736934240967, -7.752537514040506, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 27, "id_src": 411, "nama": "SMP MUHAMMADIYAH 2 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Condongcatur", "alamat": "Karangasem", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.408257116920367, -7.748932738432845, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 28, "id_src": 412, "nama": "SD NEGERI CONDONGCATUR", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Kentungan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.387578741150975, -7.749844578984434, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 29, "id_src": 413, "nama": "SMP NEGERI 2 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Condongcatur", "alamat": "Ngringin", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.407583544636779, -7.755419213733059, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 30, "id_src": 414, "nama": "SD NEGERI PUREN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Puren", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.395808728726621, -7.76750169509898, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 31, "id_src": 415, "nama": "SD NEGERI KARANGASEM", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Karangasem", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.411660526994083, -7.751086995098901, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 32, "id_src": 416, "nama": "SD NEGERI SARIKARYA", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Krangkungan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.40403345423357, -7.74999738909138, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 33, "id_src": 417, "nama": "SD NEGERI GAMBIRANOM", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Ganjuran", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.397223761115328, -7.740798110617724, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 34, "id_src": 418, "nama": "SD NEGERI BHAKTI KARYA", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Ganjuran", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.397773962802063, -7.740974292310848, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 35, "id_src": 419, "nama": "SMKS PI AMBARUKMO 1", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Condongcatur", "alamat": "Mancasan Kidul", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.413268718083387, -7.759226490022788, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 36, "id_src": 420, "nama": "SD KANISIUS CONDONGCATUR DEPOK", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Condongcatur", "alamat": "Dero", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.411413483673385, -7.754945268386675, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 37, "id_src": 421, "nama": "SD NEGERI NOLOBANGSAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Nolobangsan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.399123947255774, -7.784893010140547, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 38, "id_src": 422, "nama": "SD NEGERI NOGOPURO", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Nolobangsan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.40035811042587, -7.784815912420525, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 39, "id_src": 423, "nama": "SD NEGERI CATURTUNGGAL 6", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Janti", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.411908491404077, -7.784522036029092, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 40, "id_src": 424, "nama": "SD NEGERI KLEDOKAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Ngentak", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.410847490743947, -7.779944332120438, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 41, "id_src": 425, "nama": "SD NEGERI CATURTUNGGAL 4", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Tempel", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.402722726059295, -7.777823289426708, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 42, "id_src": 426, "nama": "SD NEGERI DERESAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Deresan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.389586042963643, -7.763420625278301, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 43, "id_src": 427, "nama": "SD NEGERI CATURTUNGGAL 7", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Karangasem", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.388569946913989, -7.76729678891179, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 44, "id_src": 428, "nama": "SD NEGERI CATURTUNGGAL 1", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Karanggayam", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.386454535429493, -7.759002329316644, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 45, "id_src": 429, "nama": "SD NEGERI CATURTUNGGAL 3", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Kocoran", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.380704392452316, -7.763968426764302, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 46, "id_src": 430, "nama": "SD NEGERI KARANGWUNI", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Karangwuni", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.382357428171588, -7.762675457418584, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 47, "id_src": 431, "nama": "SD KANISIUS DEMANGAN BARU 1", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Papringn", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.393086960248766, -7.777475555675004, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 48, "id_src": 432, "nama": "SD NEGERI PERCOBAAN 2 DEPOK", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Blimbingsari", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.372734350929079, -7.773175234340016, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 49, "id_src": 433, "nama": "SMAS KOLOMBO DEPOK", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Caturtunggal", "alamat": "Demangan Baru", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.391404186346904, -7.778438313173988, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 50, "id_src": 434, "nama": "SMKN 2 DEPOK", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Caturtunggal", "alamat": "Mrican", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.392412819126676, -7.771989562392422, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 51, "id_src": 435, "nama": "SMAN 1 DEPOK", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Caturtunggal", "alamat": "Babarsari", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.412945604402282, -7.773342427764979, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 52, "id_src": 436, "nama": "SMP NEGERI 4 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Caturtunggal", "alamat": "Babarsari", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.411842166756443, -7.773514875617868, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 53, "id_src": 437, "nama": "SD NEGERI SAMIRONO", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Samirono", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.381296809666665, -7.777074877841472, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 54, "id_src": 438, "nama": "SMAS GAMA DEPOK YOGJAKARTA", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Caturtunggal", "alamat": "Mrican", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.389006237085667, -7.774119175075276, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 55, "id_src": 439, "nama": "SD NEGERI BABARSARI", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Babarsari", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.412399711006145, -7.773634858313798, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 56, "id_src": 440, "nama": "SMP NEGERI 5 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Caturtunggal", "alamat": "Karanggayam", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.385351533944501, -7.760197407889536, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 57, "id_src": 441, "nama": "SD BOPKRI DEMANGAN III", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Papringan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.394605387494678, -7.781738261017983, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 58, "id_src": 442, "nama": "SMKS KARYA RINI SLEMAN", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.393091754572495, -7.783942781489294, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 59, "id_src": 443, "nama": "SD NEGERI AMBARUKMO", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Ambarukmo", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.398570006200686, -7.781747925673355, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 60, "id_src": 444, "nama": "SMP MUHAMMADIYAH 3 DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.391567987095712, -7.778629042909227, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 61, "id_src": 445, "nama": "SD MUHAMMADIYAH KOMPLEK KOLOMBO", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.391850226896267, -7.778426024176366, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 62, "id_src": 446, "nama": "SD AL ISLAM", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Tambakbayan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.418328652461412, -7.777325473372146, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 63, "id_src": 689, "nama": "SD NEGERI ADISUCIPTO 1", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.411409357951001, -7.790568708608413, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 64, "id_src": 690, "nama": "SD NEGERI ADISUCIPTO 2", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.41082096481702, -7.791357798136094, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 65, "id_src": 691, "nama": "SMP ANGKASA ADISUTJIPTO DEPOK", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.410845711882232, -7.790583045443827, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 66, "id_src": 692, "nama": "SD OLIFANT SLEMAN", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.392071594619424, -7.780007361404692, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 67, "id_src": 693, "nama": "SDS CAHAYA BANGSA UTAMA", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Maguwoharjo", "alamat": "Corongan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.422546873654525, -7.78021592197879, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 68, "id_src": 694, "nama": "SD TERUNA BANGSA", "kategori": "Pendidikan", "subkategori": "SD", "kalurahan": "Caturtunggal", "alamat": "Seturan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.409479313551557, -7.768107488122801, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 69, "id_src": 695, "nama": "SMP OLIFANT", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.392150154357992, -7.779897685853788, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 70, "id_src": 696, "nama": "SMP CAHAYA BANGSA UTAMA", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Maguwoharjo", "alamat": "Corongan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.422481662567264, -7.780214019660506, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 71, "id_src": 697, "nama": "SMP TAHFIDZQU", "kategori": "Pendidikan", "subkategori": "SMP", "kalurahan": "Caturtunggal", "alamat": "Caturtunggal", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.389726341404057, -7.761838135334463, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 72, "id_src": 721, "nama": "SMA CAHAYA BANGSA UTAMA", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Maguwoharjo", "alamat": "Corongan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.422531631398542, -7.780235435383452, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 73, "id_src": 722, "nama": "SMA OLIFANT", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.392235814871597, -7.779969069447787, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 74, "id_src": 723, "nama": "SMAS ANGKASA ADISUCIPTO", "kategori": "Pendidikan", "subkategori": "SMA", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.412184158189746, -7.790540215076764, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 75, "id_src": 724, "nama": "SMKS KESEHATAN SADEWA", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Caturtunggal", "alamat": "Babarsari", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.415794400930565, -7.771416520146243, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 76, "id_src": 725, "nama": "SMKS PENERBANGAN AAG ADISUTJIPTO", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.412909893888468, -7.790721649207083, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 77, "id_src": 726, "nama": "SMKS TRISULA I DEPOK", "kategori": "Pendidikan", "subkategori": "SMK", "kalurahan": "Caturtunggal", "alamat": "Tambakbayan", "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021", "tahun": 2020 }, "geometry": { "type": "Point", "coordinates": [ 110.417581125216373, -7.78120115477966, 0.0 ] } },
-{ "type": "Feature", "properties": { "id": 78, "id_src": 24, "nama": "Kantor Kalurahan Caturtunggal", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Caturtunggal", "alamat": "Demangan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.390876561572455, -7.776901568139346 ] } },
-{ "type": "Feature", "properties": { "id": 79, "id_src": 25, "nama": "Kantor Pengairan", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Caturtunggal", "alamat": "Ngentak", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.408741014192273, -7.782752219669296 ] } },
-{ "type": "Feature", "properties": { "id": 80, "id_src": 26, "nama": "UPT", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Caturtunggal", "alamat": "Karangmalang", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.373967242947728, -7.774631034389174 ] } },
-{ "type": "Feature", "properties": { "id": 81, "id_src": 27, "nama": "Dishub DIY", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Caturtunggal", "alamat": "Tambakbayan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.415521994687623, -7.777898173477721 ] } },
-{ "type": "Feature", "properties": { "id": 82, "id_src": 28, "nama": "Kantor Pusat IKA Univ. Negeri Yogyakarta", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Caturtunggal", "alamat": "Samirono", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2021", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.38858390783551, -7.776698819433302 ] } },
-{ "type": "Feature", "properties": { "id": 83, "id_src": 29, "nama": "Ombudsman Republik Indonesia", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Caturtunggal", "alamat": "Santren", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2021", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.390346253029634, -7.769354390375321 ] } },
-{ "type": "Feature", "properties": { "id": 84, "id_src": 30, "nama": "Kantor Kalurahan Condongcatur", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Condongcatur", "alamat": "Gejayan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.396367019124611, -7.757143992809246 ] } },
-{ "type": "Feature", "properties": { "id": 85, "id_src": 31, "nama": "Kantor Kapanewon Depok", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Condongcatur", "alamat": "Gandok", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.393676267728537, -7.758240555664565 ] } },
-{ "type": "Feature", "properties": { "id": 86, "id_src": 32, "nama": "Kantor Kalurahan Maguwoharjo", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Kembang", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.430215963562006, -7.782621095718651 ] } },
-{ "type": "Feature", "properties": { "id": 87, "id_src": 33, "nama": "Kantor Pengawasan Bea Cukai", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Sambilegi", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.438547215467224, -7.782951358758753 ] } },
-{ "type": "Feature", "properties": { "id": 88, "id_src": 34, "nama": "Kantor Imigrasi Yogyakarta", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Sambilegi", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.435399081321535, -7.783759809280025 ] } },
-{ "type": "Feature", "properties": { "id": 89, "id_src": 35, "nama": "Disnakertrans DIY", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Maguwo", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.431731642779738, -7.767974682517861 ] } },
-{ "type": "Feature", "properties": { "id": 90, "id_src": 36, "nama": "Balai SABO", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Sopalan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.42844760593087, -7.76006340376855 ] } },
-{ "type": "Feature", "properties": { "id": 91, "id_src": 37, "nama": "Balai SABO", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Sopalan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.429165084939868, -7.76024725065905 ] } },
-{ "type": "Feature", "properties": { "id": 92, "id_src": 38, "nama": "Kantor Pelayanan Pajak", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Pugeran", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.41735249276077, -7.763520487463042 ] } },
-{ "type": "Feature", "properties": { "id": 93, "id_src": 39, "nama": "Balai PIPBPJK Yogyakarta", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Nanggulan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.431177784268129, -7.774524054206831 ] } },
-{ "type": "Feature", "properties": { "id": 94, "id_src": 40, "nama": "Kanwil Perbendaharaan Negara", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Nayan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.424088206499576, -7.783107867560875 ] } },
-{ "type": "Feature", "properties": { "id": 95, "id_src": 41, "nama": "Kantor Samsat Bersama Sleman", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.426787994096998, -7.782926050673882 ] } },
-{ "type": "Feature", "properties": { "id": 96, "id_src": 42, "nama": "Kantor Satker Jalan Nasional", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Nanggulan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.431018849910942, -7.774230251563061 ] } },
-{ "type": "Feature", "properties": { "id": 97, "id_src": 43, "nama": "Kantor Kesehatan Haji", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Nanggulan", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.42972062587414, -7.782126219536217 ] } },
-{ "type": "Feature", "properties": { "id": 98, "id_src": 44, "nama": "Disperindakop DIY (packing)", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Kopenrejo", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.426614341038885, -7.780486653250591 ] } },
-{ "type": "Feature", "properties": { "id": 99, "id_src": 45, "nama": "KUA Depok", "kategori": "Pemerintahan", "subkategori": "Kantor Pemerintah", "kalurahan": "Maguwoharjo", "alamat": "Tajem", "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018", "tahun": 2021 }, "geometry": { "type": "Point", "coordinates": [ 110.434544207900245, -7.755354813086077 ] } },
-{ "type": "Feature", "properties": { "id": 100, "id_src": 10, "nama": "Puskesmas Depok I", "kategori": "Kesehatan", "subkategori": "Puskesmas", "kalurahan": "Maguwoharjo", "alamat": "Nanggulan, Maguwoharjo, Depok, Sleman, Yogyakarta 55282", "sumber": "Dataset Puskesmas Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.431389476323943, -7.774923135193514 ] } },
-{ "type": "Feature", "properties": { "id": 101, "id_src": 11, "nama": "Puskesmas Depok II", "kategori": "Kesehatan", "subkategori": "Puskesmas", "kalurahan": "Condongcatur", "alamat": "Jalan Lely III Perumnas Condongcatur, Depok, Sleman, Yogyakarta", "sumber": "Dataset Puskesmas Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.408168735766125, -7.756590601987353 ] } },
-{ "type": "Feature", "properties": { "id": 102, "id_src": 12, "nama": "Puskesmas Depok III", "kategori": "Kesehatan", "subkategori": "Puskesmas", "kalurahan": "Caturtunggal", "alamat": "Kompleks Kolombo 50 A, Catur Tunggal, Depok, Sleman, Yogyakarta", "sumber": "Dataset Puskesmas Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.389432035175545, -7.778243535776341 ] } },
-{ "type": "Feature", "properties": { "id": 103, "id_src": 2, "nama": "RS Hermina Yogya", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.432750434634031, -7.770326965791665 ] } },
-{ "type": "Feature", "properties": { "id": 104, "id_src": 3, "nama": "RS Bunga Bangsa Medika", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.429173193819111, -7.784811738859844 ] } },
-{ "type": "Feature", "properties": { "id": 105, "id_src": 8, "nama": "RS Condong Catur", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Condongcatur", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.405732347404765, -7.754495848675504 ] } },
-{ "type": "Feature", "properties": { "id": 106, "id_src": 12, "nama": "RSKB An Nur", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Caturtunggal", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.386952336271548, -7.778041506693089 ] } },
-{ "type": "Feature", "properties": { "id": 107, "id_src": 17, "nama": "RSKIA Sadewa", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Caturtunggal", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.415863245713098, -7.77099847475285 ] } },
-{ "type": "Feature", "properties": { "id": 108, "id_src": 19, "nama": "RS JIH", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Condongcatur", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.403646158664444, -7.757697705610899 ] } },
-{ "type": "Feature", "properties": { "id": 109, "id_src": 29, "nama": "RSKIA Arvita Bunda", "kategori": "Kesehatan", "subkategori": "Rumah Sakit", "kalurahan": "Maguwoharjo", "alamat": "", "sumber": "Dataset Rumah Sakit di Wilayah Sleman", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.434573515629793, -7.762412942979139 ] } },
-{ "type": "Feature", "properties": { "id": 110, "id_src": 23, "nama": "Pasar Condongcatur", "kategori": "Ekonomi", "subkategori": "Pasar", "kalurahan": "Condongcatur", "alamat": "Jl. Ringroad Utara No.414, Padukuhan Ngringin, Kalurahan Condongcatur, Kapanewon Depok, Kabupaten Sleman", "sumber": "Keputusan Bupati Sleman Nomor 86.4/Kep.KDH/A/2025 Tentang Pasar Rakyat", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.407191907159103, -7.759712016717807 ] } },
-{ "type": "Feature", "properties": { "id": 111, "id_src": 24, "nama": "Pasar Sambilegi", "kategori": "Ekonomi", "subkategori": "Pasar", "kalurahan": "Maguwoharjo", "alamat": "Jl. Solo Km.9, Padukuhan Sambilegi, Kalurahan Maguwoharjo, Kapanewon Depok, Kabupaten Sleman", "sumber": "Keputusan Bupati Sleman Nomor 86.4/Kep.KDH/A/2025 Tentang Pasar Rakyat", "tahun": 2025 }, "geometry": { "type": "Point", "coordinates": [ 110.432349905953743, -7.783064018645269 ] } }
-]
+  "type": "FeatureCollection",
+  "name": "fasilitas",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "id_src": 385,
+        "nama": "SD NEGERI CORONGAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Corongan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/1.jpg",
+        "foto_no": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42151908771152,
+          -7.776497030394133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "id_src": 386,
+        "nama": "SD NEGERI MUSTOKOREJO",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sopalan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/2.jpg",
+        "foto_no": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42901864373353,
+          -7.760983410407548,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "id_src": 387,
+        "nama": "SD NEGERI DEPOK I",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Setan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/3.jpg",
+        "foto_no": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43277539002521,
+          -7.760418508422331,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "id_src": 388,
+        "nama": "SD NEGERI TIMBULHARJO",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Timbulrejo",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/4.jpg",
+        "foto_no": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42318300161557,
+          -7.756733510317983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "id_src": 389,
+        "nama": "SD NEGERI NANGGULAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nanggulan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/5.jpg",
+        "foto_no": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.431753308852,
+          -7.775200687829101,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "id_src": 390,
+        "nama": "SD NEGERI RINGINSARI",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Ringinsari",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/6.jpg",
+        "foto_no": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43460009647555,
+          -7.772174218850414,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "id_src": 391,
+        "nama": "SD NEGERI DEPOK II",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Manisrejo",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/7.jpg",
+        "foto_no": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4395264104774,
+          -7.765793303252441,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "id_src": 392,
+        "nama": "SD NEGERI TAJEM",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Banjeng",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/8.jpg",
+        "foto_no": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43914934958802,
+          -7.751088203290208,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "id_src": 393,
+        "nama": "SMKS YPKK 3 SLEMAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Karangnongko",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/9.jpg",
+        "foto_no": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42406446219266,
+          -7.764244891174286,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "id_src": 394,
+        "nama": "SMKN 1 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Maguwo",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/10.jpg",
+        "foto_no": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43089303642992,
+          -7.765527281212175,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "id_src": 395,
+        "nama": "SMP NEGERI 3 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sopalan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/11.jpg",
+        "foto_no": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42823730418054,
+          -7.761465252121272,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "id_src": 396,
+        "nama": "SMP DIPONEGORO DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Depok",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/12.jpg",
+        "foto_no": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.44032663763632,
+          -7.759738614325527,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "id_src": 397,
+        "nama": "SD NEGERI MAGUWOHARJO I",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nanggulan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/13.jpg",
+        "foto_no": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43112816450606,
+          -7.77502532667982,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "id_src": 398,
+        "nama": "SMP MUHAMMADIYAH 1 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Setan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/14.jpg",
+        "foto_no": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43351944029938,
+          -7.762845220329909,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "id_src": 399,
+        "nama": "SD NEGERI KALONGAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Kalongan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/15.jpg",
+        "foto_no": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42632198661093,
+          -7.783682905481649,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "id_src": 400,
+        "nama": "SMKS DIPONEGORO DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sembego",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/16.jpg",
+        "foto_no": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43964967706,
+          -7.760351021440348,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "id_src": 401,
+        "nama": "SD NEGERI NGRINGIN CONCAT",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Ngropoh",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/17.jpg",
+        "foto_no": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40535816926803,
+          -7.761734076869714,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "id_src": 402,
+        "nama": "SD MUHAMMADIYAH CONDONGCATUR",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Ngropoh",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/18.jpg",
+        "foto_no": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40698710841365,
+          -7.761677424936262,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "id_src": 403,
+        "nama": "SD NEGERI KENTUNGAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Kentungan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/19.jpg",
+        "foto_no": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38722335887174,
+          -7.749442945949943,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "id_src": 404,
+        "nama": "SD NEGERI PERUMNAS 3",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Dero",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/20.jpg",
+        "foto_no": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41115178350645,
+          -7.755510053948503,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "id_src": 405,
+        "nama": "SD NEGERI PERUMNAS CONDONGCATUR",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Ngringin",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/21.jpg",
+        "foto_no": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40711553780349,
+          -7.756003390765411,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "id_src": 406,
+        "nama": "SD NEGERI GEJAYAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Gejayan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/22.jpg",
+        "foto_no": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.395655798033,
+          -7.757329216077476,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "id_src": 407,
+        "nama": "SD MUHAMMADIYAH KAYEN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Cikaldempet",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/23.jpg",
+        "foto_no": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38564444312978,
+          -7.741656101044573,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "id_src": 408,
+        "nama": "SD KANISIUS SENGKAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Sengkan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/24.jpg",
+        "foto_no": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39208424405788,
+          -7.746585967351755,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "id_src": 409,
+        "nama": "SMAS MANDALA BHAKTI",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Condongcatur",
+        "alamat": "Gejayan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/25.jpg",
+        "foto_no": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39562926120684,
+          -7.757634642992151,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "id_src": 410,
+        "nama": "SMP NEGERI 1 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Condongcatur",
+        "alamat": "Gejayan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/26.jpg",
+        "foto_no": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39473693424097,
+          -7.752537514040506,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "id_src": 411,
+        "nama": "SMP MUHAMMADIYAH 2 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Condongcatur",
+        "alamat": "Karangasem",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/27.jpg",
+        "foto_no": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40825711692037,
+          -7.748932738432845,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "id_src": 412,
+        "nama": "SD NEGERI CONDONGCATUR",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Kentungan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/28.jpg",
+        "foto_no": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38757874115097,
+          -7.749844578984434,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "id_src": 413,
+        "nama": "SMP NEGERI 2 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Condongcatur",
+        "alamat": "Ngringin",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/29.jpg",
+        "foto_no": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40758354463678,
+          -7.755419213733059,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "id_src": 414,
+        "nama": "SD NEGERI PUREN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Puren",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/30.jpg",
+        "foto_no": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39580872872662,
+          -7.76750169509898,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "id_src": 415,
+        "nama": "SD NEGERI KARANGASEM",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Karangasem",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/31.jpg",
+        "foto_no": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41166052699408,
+          -7.751086995098901,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "id_src": 416,
+        "nama": "SD NEGERI SARIKARYA",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Krangkungan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/32.jpg",
+        "foto_no": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40403345423357,
+          -7.74999738909138,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "id_src": 417,
+        "nama": "SD NEGERI GAMBIRANOM",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Ganjuran",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/33.jpg",
+        "foto_no": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39722376111533,
+          -7.740798110617724,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "id_src": 418,
+        "nama": "SD NEGERI BHAKTI KARYA",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Ganjuran",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/34.jpg",
+        "foto_no": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39777396280206,
+          -7.740974292310848,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "id_src": 419,
+        "nama": "SMKS PI AMBARUKMO 1",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Condongcatur",
+        "alamat": "Mancasan Kidul",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/35.jpg",
+        "foto_no": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41326871808339,
+          -7.759226490022788,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "id_src": 420,
+        "nama": "SD KANISIUS CONDONGCATUR DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Condongcatur",
+        "alamat": "Dero",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/36.jpg",
+        "foto_no": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41141348367339,
+          -7.754945268386675,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "id_src": 421,
+        "nama": "SD NEGERI NOLOBANGSAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Nolobangsan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/37.jpg",
+        "foto_no": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39912394725577,
+          -7.784893010140547,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "id_src": 422,
+        "nama": "SD NEGERI NOGOPURO",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Nolobangsan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/38.jpg",
+        "foto_no": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40035811042587,
+          -7.784815912420525,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "id_src": 423,
+        "nama": "SD NEGERI CATURTUNGGAL 6",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Janti",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/39.jpg",
+        "foto_no": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41190849140408,
+          -7.784522036029092,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "id_src": 424,
+        "nama": "SD NEGERI KLEDOKAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Ngentak",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/40.jpg",
+        "foto_no": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41084749074395,
+          -7.779944332120438,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "id_src": 425,
+        "nama": "SD NEGERI CATURTUNGGAL 4",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Tempel",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/41.jpg",
+        "foto_no": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4027227260593,
+          -7.777823289426708,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "id_src": 426,
+        "nama": "SD NEGERI DERESAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Deresan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/42.jpg",
+        "foto_no": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38958604296364,
+          -7.763420625278301,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "id_src": 427,
+        "nama": "SD NEGERI CATURTUNGGAL 7",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Karangasem",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/43.jpg",
+        "foto_no": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38856994691399,
+          -7.76729678891179,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "id_src": 428,
+        "nama": "SD NEGERI CATURTUNGGAL 1",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Karanggayam",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/44.jpg",
+        "foto_no": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3864545354295,
+          -7.759002329316644,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "id_src": 429,
+        "nama": "SD NEGERI CATURTUNGGAL 3",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Kocoran",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/45.jpg",
+        "foto_no": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38070439245232,
+          -7.763968426764302,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "id_src": 430,
+        "nama": "SD NEGERI KARANGWUNI",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Karangwuni",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/46.jpg",
+        "foto_no": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38235742817159,
+          -7.762675457418584,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "id_src": 431,
+        "nama": "SD KANISIUS DEMANGAN BARU 1",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Papringn",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/47.jpg",
+        "foto_no": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39308696024877,
+          -7.777475555675004,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "id_src": 432,
+        "nama": "SD NEGERI PERCOBAAN 2 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Blimbingsari",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/48.jpg",
+        "foto_no": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37273435092908,
+          -7.773175234340016,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "id_src": 433,
+        "nama": "SMAS KOLOMBO DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan Baru",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/49.jpg",
+        "foto_no": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3914041863469,
+          -7.778438313173988,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "id_src": 434,
+        "nama": "SMKN 2 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Mrican",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/50.jpg",
+        "foto_no": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39241281912668,
+          -7.771989562392422,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "id_src": 435,
+        "nama": "SMAN 1 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Babarsari",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/51.jpg",
+        "foto_no": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41294560440228,
+          -7.773342427764979,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 52,
+        "id_src": 436,
+        "nama": "SMP NEGERI 4 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Babarsari",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/52.jpg",
+        "foto_no": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41184216675644,
+          -7.773514875617868,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "id_src": 437,
+        "nama": "SD NEGERI SAMIRONO",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Samirono",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/53.jpg",
+        "foto_no": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38129680966667,
+          -7.777074877841472,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "id_src": 438,
+        "nama": "SMAS GAMA DEPOK YOGJAKARTA",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Mrican",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/54.jpg",
+        "foto_no": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38900623708567,
+          -7.774119175075276,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "id_src": 439,
+        "nama": "SD NEGERI BABARSARI",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Babarsari",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/55.jpg",
+        "foto_no": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41239971100615,
+          -7.773634858313798,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "id_src": 440,
+        "nama": "SMP NEGERI 5 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Karanggayam",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/56.jpg",
+        "foto_no": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3853515339445,
+          -7.760197407889536,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "id_src": 441,
+        "nama": "SD BOPKRI DEMANGAN III",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Papringan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/57.jpg",
+        "foto_no": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39460538749468,
+          -7.781738261017983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "id_src": 442,
+        "nama": "SMKS KARYA RINI SLEMAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/58.jpg",
+        "foto_no": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3930917545725,
+          -7.783942781489294,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "id_src": 443,
+        "nama": "SD NEGERI AMBARUKMO",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Ambarukmo",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/59.jpg",
+        "foto_no": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39857000620069,
+          -7.781747925673355,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "id_src": 444,
+        "nama": "SMP MUHAMMADIYAH 3 DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/60.jpg",
+        "foto_no": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39156798709571,
+          -7.778629042909227,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "id_src": 445,
+        "nama": "SD MUHAMMADIYAH KOMPLEK KOLOMBO",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/61.jpg",
+        "foto_no": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39185022689627,
+          -7.778426024176366,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "id_src": 446,
+        "nama": "SD AL ISLAM",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Tambakbayan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/62.jpg",
+        "foto_no": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41832865246141,
+          -7.777325473372146,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "id_src": 689,
+        "nama": "SD NEGERI ADISUCIPTO 1",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/63.jpg",
+        "foto_no": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.411409357951,
+          -7.790568708608413,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "id_src": 690,
+        "nama": "SD NEGERI ADISUCIPTO 2",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/64.jpg",
+        "foto_no": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41082096481702,
+          -7.791357798136094,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "id_src": 691,
+        "nama": "SMP ANGKASA ADISUTJIPTO DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/65.jpg",
+        "foto_no": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41084571188223,
+          -7.790583045443827,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "id_src": 692,
+        "nama": "SD OLIFANT SLEMAN",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/66.jpg",
+        "foto_no": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39207159461942,
+          -7.780007361404692,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "id_src": 693,
+        "nama": "SDS CAHAYA BANGSA UTAMA",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Corongan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/67.jpg",
+        "foto_no": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42254687365453,
+          -7.78021592197879,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "id_src": 694,
+        "nama": "SD TERUNA BANGSA",
+        "kategori": "Pendidikan",
+        "subkategori": "SD",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Seturan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/68.jpg",
+        "foto_no": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40947931355156,
+          -7.768107488122801,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "id_src": 695,
+        "nama": "SMP OLIFANT",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/69.jpg",
+        "foto_no": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39215015435799,
+          -7.779897685853788,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "id_src": 696,
+        "nama": "SMP CAHAYA BANGSA UTAMA",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Corongan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/70.jpg",
+        "foto_no": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42248166256726,
+          -7.780214019660506,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "id_src": 697,
+        "nama": "SMP TAHFIDZQU",
+        "kategori": "Pendidikan",
+        "subkategori": "SMP",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Caturtunggal",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/71.jpg",
+        "foto_no": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38972634140406,
+          -7.761838135334463,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "id_src": 721,
+        "nama": "SMA CAHAYA BANGSA UTAMA",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Corongan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/72.jpg",
+        "foto_no": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42253163139854,
+          -7.780235435383452,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "id_src": 722,
+        "nama": "SMA OLIFANT",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/73.jpg",
+        "foto_no": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3922358148716,
+          -7.779969069447787,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "id_src": 723,
+        "nama": "SMAS ANGKASA ADISUCIPTO",
+        "kategori": "Pendidikan",
+        "subkategori": "SMA",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/74.jpg",
+        "foto_no": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41218415818975,
+          -7.790540215076764,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "id_src": 724,
+        "nama": "SMKS KESEHATAN SADEWA",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Babarsari",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/75.jpg",
+        "foto_no": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41579440093057,
+          -7.771416520146243,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "id_src": 725,
+        "nama": "SMKS PENERBANGAN AAG ADISUTJIPTO",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/76.jpg",
+        "foto_no": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41290989388847,
+          -7.790721649207083,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "id_src": 726,
+        "nama": "SMKS TRISULA I DEPOK",
+        "kategori": "Pendidikan",
+        "subkategori": "SMK",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Tambakbayan",
+        "sumber": "Updating Data DPTR Sleman dan Data Disdik Sleman dan DIY Tahun 2021",
+        "tahun": 2020,
+        "foto": "assets/fasilitas/pendidikan/77.jpg",
+        "foto_no": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41758112521637,
+          -7.78120115477966,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "id_src": 24,
+        "nama": "Kantor Kalurahan Caturtunggal",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Demangan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/1.jpg",
+        "foto_no": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39087656157245,
+          -7.776901568139346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "id_src": 25,
+        "nama": "Kantor Pengairan",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Ngentak",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/2.jpg",
+        "foto_no": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40874101419227,
+          -7.782752219669296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "id_src": 26,
+        "nama": "UPT",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Karangmalang",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/3.jpg",
+        "foto_no": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37396724294773,
+          -7.774631034389174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "id_src": 27,
+        "nama": "Dishub DIY",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Tambakbayan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/4.jpg",
+        "foto_no": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41552199468762,
+          -7.777898173477721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "id_src": 28,
+        "nama": "Kantor Pusat IKA Univ. Negeri Yogyakarta",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Samirono",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2021",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/5.jpg",
+        "foto_no": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38858390783551,
+          -7.776698819433302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "id_src": 29,
+        "nama": "Ombudsman Republik Indonesia",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Santren",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2021",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/6.jpg",
+        "foto_no": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39034625302963,
+          -7.769354390375321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "id_src": 30,
+        "nama": "Kantor Kalurahan Condongcatur",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Condongcatur",
+        "alamat": "Gejayan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/7.jpg",
+        "foto_no": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39636701912461,
+          -7.757143992809246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "id_src": 31,
+        "nama": "Kantor Kapanewon Depok",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Condongcatur",
+        "alamat": "Gandok",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/8.jpg",
+        "foto_no": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.39367626772854,
+          -7.758240555664565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "id_src": 32,
+        "nama": "Kantor Kalurahan Maguwoharjo",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Kembang",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/9.jpg",
+        "foto_no": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.430215963562,
+          -7.782621095718651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "id_src": 33,
+        "nama": "Kantor Pengawasan Bea Cukai",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sambilegi",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/10.jpg",
+        "foto_no": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43854721546722,
+          -7.782951358758753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "id_src": 34,
+        "nama": "Kantor Imigrasi Yogyakarta",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sambilegi",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/11.jpg",
+        "foto_no": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43539908132153,
+          -7.783759809280025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "id_src": 35,
+        "nama": "Disnakertrans DIY",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Maguwo",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/12.jpg",
+        "foto_no": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43173164277974,
+          -7.767974682517861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "id_src": 36,
+        "nama": "Balai SABO",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sopalan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/13.jpg",
+        "foto_no": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42844760593087,
+          -7.76006340376855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "id_src": 37,
+        "nama": "Balai SABO",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Sopalan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/14.jpg",
+        "foto_no": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42916508493987,
+          -7.76024725065905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "id_src": 38,
+        "nama": "Kantor Pelayanan Pajak",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Pugeran",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/15.jpg",
+        "foto_no": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.41735249276077,
+          -7.763520487463042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "id_src": 39,
+        "nama": "Balai PIPBPJK Yogyakarta",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nanggulan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/16.jpg",
+        "foto_no": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43117778426813,
+          -7.774524054206831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "id_src": 40,
+        "nama": "Kanwil Perbendaharaan Negara",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nayan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/17.jpg",
+        "foto_no": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42408820649958,
+          -7.783107867560875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "id_src": 41,
+        "nama": "Kantor Samsat Bersama Sleman",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/18.jpg",
+        "foto_no": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.426787994097,
+          -7.782926050673882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "id_src": 42,
+        "nama": "Kantor Satker Jalan Nasional",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nanggulan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/19.jpg",
+        "foto_no": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43101884991094,
+          -7.774230251563061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "id_src": 43,
+        "nama": "Kantor Kesehatan Haji",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nanggulan",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/20.jpg",
+        "foto_no": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42972062587414,
+          -7.782126219536217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "id_src": 44,
+        "nama": "Disperindakop DIY (packing)",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Kopenrejo",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/21.jpg",
+        "foto_no": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42661434103888,
+          -7.780486653250591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "id_src": 45,
+        "nama": "KUA Depok",
+        "kategori": "Pemerintahan",
+        "subkategori": "Kantor Pemerintah",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Tajem",
+        "sumber": "Updating Data DPTR Sleman dan Survey Lapangan Tahun 2018",
+        "tahun": 2021,
+        "foto": "assets/fasilitas/pemerintahan/22.jpg",
+        "foto_no": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43454420790025,
+          -7.755354813086077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "id_src": 10,
+        "nama": "Puskesmas Depok I",
+        "kategori": "Kesehatan",
+        "subkategori": "Puskesmas",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Nanggulan, Maguwoharjo, Depok, Sleman, Yogyakarta 55282",
+        "sumber": "Dataset Puskesmas Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/1.jpg",
+        "foto_no": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43138947632394,
+          -7.774923135193514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "id_src": 11,
+        "nama": "Puskesmas Depok II",
+        "kategori": "Kesehatan",
+        "subkategori": "Puskesmas",
+        "kalurahan": "Condongcatur",
+        "alamat": "Jalan Lely III Perumnas Condongcatur, Depok, Sleman, Yogyakarta",
+        "sumber": "Dataset Puskesmas Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/2.jpg",
+        "foto_no": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40816873576613,
+          -7.756590601987353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "id_src": 12,
+        "nama": "Puskesmas Depok III",
+        "kategori": "Kesehatan",
+        "subkategori": "Puskesmas",
+        "kalurahan": "Caturtunggal",
+        "alamat": "Kompleks Kolombo 50 A, Catur Tunggal, Depok, Sleman, Yogyakarta",
+        "sumber": "Dataset Puskesmas Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/3.jpg",
+        "foto_no": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38943203517555,
+          -7.778243535776341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "id_src": 2,
+        "nama": "RS Hermina Yogya",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/4.jpg",
+        "foto_no": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43275043463403,
+          -7.770326965791665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "id_src": 3,
+        "nama": "RS Bunga Bangsa Medika",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/5.jpg",
+        "foto_no": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.42917319381911,
+          -7.784811738859844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "id_src": 8,
+        "nama": "RS Condong Catur",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Condongcatur",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/6.jpg",
+        "foto_no": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40573234740476,
+          -7.754495848675504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "id_src": 12,
+        "nama": "RSKB An Nur",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Caturtunggal",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/7.jpg",
+        "foto_no": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38695233627155,
+          -7.778041506693089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "id_src": 17,
+        "nama": "RSKIA Sadewa",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Caturtunggal",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/8.jpg",
+        "foto_no": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4158632457131,
+          -7.77099847475285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "id_src": 19,
+        "nama": "RS JIH",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Condongcatur",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/9.jpg",
+        "foto_no": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40364615866444,
+          -7.757697705610899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "id_src": 29,
+        "nama": "RSKIA Arvita Bunda",
+        "kategori": "Kesehatan",
+        "subkategori": "Rumah Sakit",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "",
+        "sumber": "Dataset Rumah Sakit di Wilayah Sleman",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/kesehatan/10.jpg",
+        "foto_no": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4345735156298,
+          -7.762412942979139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "id_src": 23,
+        "nama": "Pasar Condongcatur",
+        "kategori": "Ekonomi",
+        "subkategori": "Pasar",
+        "kalurahan": "Condongcatur",
+        "alamat": "Jl. Ringroad Utara No.414, Padukuhan Ngringin, Kalurahan Condongcatur, Kapanewon Depok, Kabupaten Sleman",
+        "sumber": "Keputusan Bupati Sleman Nomor 86.4/Kep.KDH/A/2025 Tentang Pasar Rakyat",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/ekonomi/1.jpg",
+        "foto_no": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4071919071591,
+          -7.759712016717807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "id_src": 24,
+        "nama": "Pasar Sambilegi",
+        "kategori": "Ekonomi",
+        "subkategori": "Pasar",
+        "kalurahan": "Maguwoharjo",
+        "alamat": "Jl. Solo Km.9, Padukuhan Sambilegi, Kalurahan Maguwoharjo, Kapanewon Depok, Kabupaten Sleman",
+        "sumber": "Keputusan Bupati Sleman Nomor 86.4/Kep.KDH/A/2025 Tentang Pasar Rakyat",
+        "tahun": 2025,
+        "foto": "assets/fasilitas/ekonomi/2.jpg",
+        "foto_no": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.43234990595374,
+          -7.783064018645269
+        ]
+      }
+    }
+  ]
 }

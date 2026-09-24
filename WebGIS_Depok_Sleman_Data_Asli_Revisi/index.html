@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WebGIS Persebaran dan Aksesibilitas Fasilitas Publik Kapanewon Depok, Kabupaten Sleman" />
+  <title>Depok Public Facility WebGIS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="landing-page">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">D</span>
+      <span class="brand-copy">
+        <strong>Depok Spatial</strong>
+        <small>Public Facility WebGIS</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="#overview">Overview</a>
+      <a href="#scope">Scope</a>
+      <a href="#features">Features</a>
+      <a class="nav-cta" href="map.html">Open WebGIS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">WEBGIS DEVELOPMENT · PORTFOLIO PROJECT</span>
+        <h1>Public Facility Distribution & Accessibility in Depok District</h1>
+        <p class="hero-lead">
+          WebGIS interaktif untuk mengeksplorasi persebaran fasilitas publik dan
+          mendukung analisis aksesibilitas pada tiga kalurahan di Kapanewon Depok,
+          Kabupaten Sleman.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="map.html">Explore WebGIS</a>
+          <a class="btn btn-secondary" href="#overview">Project Overview</a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="meta-number">03</span>
+            <span class="meta-label">Kalurahan</span>
+          </div>
+          <div>
+            <span class="meta-number">04</span>
+            <span class="meta-label">Facility Groups</span>
+          </div>
+          <div>
+            <span class="meta-number">GIS</span>
+            <span class="meta-label">Spatial Analysis Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="browser-card">
+          <div class="browser-top">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="browser-url">depok-public-facility-webgis</div>
+          </div>
+          <div class="browser-content">
+            <aside class="preview-panel">
+              <span class="preview-label"></span>
+              <span class="preview-line wide"></span>
+              <span class="preview-line"></span>
+              <div class="preview-box"></div>
+              <div class="preview-box small"></div>
+            </aside>
+            <div class="preview-map">
+              <span class="preview-road road-a"></span>
+              <span class="preview-road road-b"></span>
+              <span class="preview-road road-c"></span>
+              <span class="preview-pin p1"></span>
+              <span class="preview-pin p2"></span>
+              <span class="preview-pin p3"></span>
+              <span class="preview-pin p4"></span>
+              <span class="preview-pin p5"></span>
+              <span class="preview-route"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="section section-soft">
+      <div class="section-heading">
+        <span class="eyebrow">PROJECT OVERVIEW</span>
+        <h2>Satu WebGIS, tiga kalurahan, satu fokus analisis.</h2>
+        <p>
+          Scope dipersempit ke Kapanewon Depok agar proses pengumpulan data,
+          cleaning, analisis, dan publikasi WebGIS lebih cepat tetapi tetap
+          menunjukkan kemampuan GIS dan web development.
+        </p>
+      </div>
+
+      <div class="village-grid">
+        <article class="village-card">
+          <span>01</span>
+          <h3>Caturtunggal</h3>
+          <p>Area urban dengan aktivitas pendidikan, perdagangan, dan layanan publik yang tinggi.</p>
+        </article>
+        <article class="village-card">
+          <span>02</span>
+          <h3>Condongcatur</h3>
+          <p>Wilayah permukiman dan komersial padat dengan akses ke berbagai fasilitas perkotaan.</p>
+        </article>
+        <article class="village-card">
+          <span>03</span>
+          <h3>Maguwoharjo</h3>
+          <p>Wilayah berkembang dengan jaringan jalan utama dan variasi fasilitas publik.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="scope" class="section">
+      <div class="split-heading">
+        <div>
+          <span class="eyebrow">DATA SCOPE</span>
+          <h2>Data yang akan masuk ke WebGIS</h2>
+        </div>
+        <p>
+          Versi starter memakai data demo. Struktur file dan atribut sudah dibuat agar
+          nanti kamu cukup mengganti GeoJSON dengan hasil pengolahan QGIS.
+        </p>
+      </div>
+
+      <div class="scope-grid">
+        <article class="scope-card">
+          <div class="scope-icon">+</div>
+          <h3>Kesehatan</h3>
+          <p>Rumah sakit, puskesmas, klinik, dan fasilitas kesehatan.</p>
+        </article>
+        <article class="scope-card">
+          <div class="scope-icon">EDU</div>
+          <h3>Pendidikan</h3>
+          <p>SD, SMP, SMA/SMK, perguruan tinggi, dan fasilitas pendidikan.</p>
+        </article>
+        <article class="scope-card">
+          <div class="scope-icon">GOV</div>
+          <h3>Pemerintahan</h3>
+          <p>Kantor kapanewon, kantor kalurahan, dan pelayanan pemerintahan.</p>
+        </article>
+        <article class="scope-card">
+          <div class="scope-icon">MKT</div>
+          <h3>Ekonomi</h3>
+          <p>Pasar dan fasilitas ekonomi lokal yang relevan.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" class="section section-dark">
+      <div class="section-heading light">
+        <span class="eyebrow">WEBGIS MODULES</span>
+        <h2>Kerangka fitur yang sudah disiapkan</h2>
+      </div>
+
+      <div class="module-grid">
+        <article>
+          <span>01</span>
+          <h3>Facility Explorer</h3>
+          <p>Filter fasilitas berdasarkan kategori, kalurahan, dan kata kunci.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Interactive Map</h3>
+          <p>Leaflet map dengan popup, marker, legenda, dan layer administrasi.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Quick Statistics</h3>
+          <p>Ringkasan jumlah fasilitas yang tampil dan distribusinya.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Accessibility Module</h3>
+          <p>Disiapkan untuk nearest facility, shortest path, atau skor aksesibilitas.</p>
+        </article>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn-light" href="map.html">Go to Map</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>WebGIS Persebaran dan Aksesibilitas Fasilitas Publik Kapanewon Depok, Kabupaten Sleman</p>
+    <span>HTML · CSS · JavaScript · Leaflet · GeoJSON</span>
+  </footer>
+</body>
+</html>

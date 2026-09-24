@@ -1,0 +1,24 @@
+DATA PROCESSED WEBGIS DEPOK
+
+CRS MASTER:
+EPSG:9489 - SRGI2013 / UTM zone 49S
+
+CRS WEB:
+EPSG:4326 - WGS 84
+
+Batas kalurahan: 3
+Fasilitas publik: 111
+Jalan kabupaten hasil clip: 100
+
+Rincian fasilitas:
+- Pendidikan: 77
+- Pemerintahan: 22
+- Puskesmas: 3
+- Rumah Sakit: 7
+- Pasar: 2
+
+Catatan:
+- Tahun sumber antar-layer berbeda (2020, 2021, 2023, 2025). Field `tahun` dipertahankan untuk transparansi.
+- Layer rumah sakit awalnya EPSG:4326 dan telah direproyeksi ke EPSG:9489 pada master.
+- Rumah sakit dan pasar diberi atribut kalurahan melalui spatial join dengan batas administrasi 2023.
+- Jalan telah di-clip ke batas Kapanewon Depok.

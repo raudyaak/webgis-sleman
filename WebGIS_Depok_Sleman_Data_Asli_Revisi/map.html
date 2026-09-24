@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WebGIS Fasilitas Publik Kapanewon Depok, Kabupaten Sleman" />
+  <title>Depok Public Facility WebGIS</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="map-page">
+
+  <header class="map-header">
+    <div class="map-header-left">
+      <button id="sidebarToggle" class="mobile-toggle" aria-label="Toggle sidebar">☰</button>
+      <a class="brand" href="index.html">
+        <span class="brand-mark">D</span>
+        <span class="brand-copy">
+          <strong>Depok Spatial</strong>
+          <small>Public Facility WebGIS</small>
+        </span>
+      </a>
+    </div>
+
+    <div class="map-header-right">
+      <span class="demo-chip">DATA 2020–2025</span>
+      <a href="index.html" class="back-link">← Landing Page</a>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-scroll">
+
+        <section class="sidebar-block intro-block">
+          <span class="eyebrow">EXPLORE DATA</span>
+          <h1>Fasilitas Publik Depok</h1>
+          <p>
+            Eksplorasi fasilitas publik di Caturtunggal, Condongcatur, dan Maguwoharjo.
+          </p>
+        </section>
+
+        <section class="sidebar-block">
+          <label class="field-label" for="searchInput">Cari fasilitas</label>
+          <div class="search-field">
+            <span>⌕</span>
+            <input id="searchInput" type="search" placeholder="Nama fasilitas..." />
+          </div>
+        </section>
+
+        <section class="sidebar-block">
+          <label class="field-label" for="villageFilter">Kalurahan</label>
+          <select id="villageFilter" class="select-field">
+            <option value="Semua">Semua kalurahan</option>
+            <option value="Caturtunggal">Caturtunggal</option>
+            <option value="Condongcatur">Condongcatur</option>
+            <option value="Maguwoharjo">Maguwoharjo</option>
+          </select>
+        </section>
+
+        <section class="sidebar-block">
+          <div class="block-heading-row">
+            <span class="field-label">Kategori fasilitas</span>
+            <button id="resetFilters" class="text-button">Reset</button>
+          </div>
+
+          <div class="filter-list">
+            <label class="filter-row">
+              <input type="checkbox" class="category-filter" value="Kesehatan" checked>
+              <span class="legend-swatch health"></span>
+              <span>Kesehatan</span>
+              <strong id="count-health">0</strong>
+            </label>
+
+            <label class="filter-row">
+              <input type="checkbox" class="category-filter" value="Pendidikan" checked>
+              <span class="legend-swatch education"></span>
+              <span>Pendidikan</span>
+              <strong id="count-education">0</strong>
+            </label>
+
+            <label class="filter-row">
+              <input type="checkbox" class="category-filter" value="Pemerintahan" checked>
+              <span class="legend-swatch government"></span>
+              <span>Pemerintahan</span>
+              <strong id="count-government">0</strong>
+            </label>
+
+            <label class="filter-row">
+              <input type="checkbox" class="category-filter" value="Ekonomi" checked>
+              <span class="legend-swatch economy"></span>
+              <span>Ekonomi</span>
+              <strong id="count-economy">0</strong>
+            </label>
+          </div>
+        </section>
+
+        <section class="sidebar-block">
+          <span class="field-label">Quick statistics</span>
+          <div class="stats-grid">
+            <article>
+              <span>Total data</span>
+              <strong id="totalFacilities">0</strong>
+            </article>
+            <article>
+              <span>Displayed</span>
+              <strong id="visibleFacilities">0</strong>
+            </article>
+            <article>
+              <span>Kalurahan</span>
+              <strong>3</strong>
+            </article>
+            <article>
+              <span>Categories</span>
+              <strong>4</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="sidebar-block">
+          <div class="access-card">
+            <span class="mini-kicker">ACCESSIBILITY</span>
+            <h3>Nearest Facility Analysis</h3>
+            <p>
+              Modul ini disiapkan untuk menampilkan fasilitas terdekat berdasarkan
+              centroid kalurahan atau titik origin lain.
+            </p>
+            <button id="accessButton" class="btn btn-primary btn-small">Preview Module</button>
+          </div>
+        </section>
+
+      </div>
+    </aside>
+
+    <main class="map-stage">
+      <div id="map"></div>
+
+      <div class="map-status">
+        <span>STATUS</span>
+        <strong id="mapStatus">Memuat data...</strong>
+      </div>
+
+      <div class="map-legend">
+        <strong>Legenda</strong>
+        <span><i class="legend-swatch health"></i>Kesehatan</span>
+        <span><i class="legend-swatch education"></i>Pendidikan</span>
+        <span><i class="legend-swatch government"></i>Pemerintahan</span>
+        <span><i class="legend-swatch economy"></i>Ekonomi</span>
+      </div>
+
+      <section id="accessPanel" class="access-panel hidden">
+        <button id="closeAccessPanel" class="panel-close">×</button>
+        <span class="eyebrow">ACCESSIBILITY MODULE</span>
+        <h2>Konsep analisis versi final</h2>
+        <p>
+          Centroid kalurahan atau titik origin dipasangkan dengan fasilitas tujuan melalui
+          jaringan jalan. Nilai jarak jaringan kemudian digunakan untuk membandingkan
+          tingkat aksesibilitas antarwilayah.
+        </p>
+
+        <div class="access-flow">
+          <span>Origin</span>
+          <b>→</b>
+          <span>Road Network</span>
+          <b>→</b>
+          <span>Nearest Facility</span>
+        </div>
+
+        <div class="access-note">
+          <strong>Untuk versi malam ini:</strong>
+          fokuskan analisis ke fasilitas kesehatan terlebih dahulu agar scope tetap ringan.
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="assets/js/map.js"></script>
+
+<script>
+  if (window.location.protocol === 'file:') {
+    window.addEventListener('DOMContentLoaded', function () {
+      const warning = document.createElement('div');
+      warning.style.cssText = `
+        position:fixed;left:50%;top:82px;transform:translateX(-50%);
+        z-index:99999;background:#fff3cd;color:#6b5313;border:1px solid #f2d675;
+        padding:10px 14px;border-radius:10px;font:600 13px/1.4 Manrope,sans-serif;
+        box-shadow:0 10px 30px rgba(0,0,0,.12);max-width:90vw;text-align:center;
+      `;
+      warning.textContent = 'Buka project ini melalui VS Code Live Server, bukan langsung dari file Windows.';
+      document.body.appendChild(warning);
+    });
+  }
+</script>
+
+</body>
+</html>

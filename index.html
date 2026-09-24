@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8z+3xg9F1T+0PpmbJ6Bp1Q7P1D8y+7g==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="landing-page">
@@ -66,25 +67,8 @@
             <div class="browser-dots"><span></span><span></span><span></span></div>
             <div class="browser-url">depok-public-facility-webgis</div>
           </div>
-          <div class="browser-content">
-            <aside class="preview-panel">
-              <span class="preview-label"></span>
-              <span class="preview-line wide"></span>
-              <span class="preview-line"></span>
-              <div class="preview-box"></div>
-              <div class="preview-box small"></div>
-            </aside>
-            <div class="preview-map">
-              <span class="preview-road road-a"></span>
-              <span class="preview-road road-b"></span>
-              <span class="preview-road road-c"></span>
-              <span class="preview-pin p1"></span>
-              <span class="preview-pin p2"></span>
-              <span class="preview-pin p3"></span>
-              <span class="preview-pin p4"></span>
-              <span class="preview-pin p5"></span>
-              <span class="preview-route"></span>
-            </div>
+          <div class="browser-content browser-content-map">
+            <img src="assets/img/peta-depok.jpg" alt="Peta administrasi Kapanewon Depok" class="browser-map-image">
           </div>
         </div>
       </div>
@@ -135,22 +119,22 @@
 
       <div class="scope-grid">
         <article class="scope-card">
-          <div class="scope-icon">+</div>
+          <div class="scope-icon health-icon"><i class="fa-solid fa-hospital"></i></div>
           <h3>Kesehatan</h3>
           <p>Rumah sakit, puskesmas, klinik, dan fasilitas kesehatan.</p>
         </article>
         <article class="scope-card">
-          <div class="scope-icon">EDU</div>
+          <div class="scope-icon education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
           <h3>Pendidikan</h3>
           <p>SD, SMP, SMA/SMK, perguruan tinggi, dan fasilitas pendidikan.</p>
         </article>
         <article class="scope-card">
-          <div class="scope-icon">GOV</div>
+          <div class="scope-icon government-icon"><i class="fa-solid fa-building-columns"></i></div>
           <h3>Pemerintahan</h3>
           <p>Kantor kapanewon, kantor kalurahan, dan pelayanan pemerintahan.</p>
         </article>
         <article class="scope-card">
-          <div class="scope-icon">MKT</div>
+          <div class="scope-icon economy-icon"><i class="fa-solid fa-store"></i></div>
           <h3>Ekonomi</h3>
           <p>Pasar dan fasilitas ekonomi lokal yang relevan.</p>
         </article>
@@ -172,17 +156,17 @@
         <article>
           <span>02</span>
           <h3>Interactive Map</h3>
-          <p>Leaflet map dengan popup, marker, legenda, dan layer administrasi.</p>
+          <p>Leaflet map dengan popup informatif, klik poligon kalurahan, serta layer administrasi dan jaringan jalan.</p>
         </article>
         <article>
           <span>03</span>
           <h3>Quick Statistics</h3>
-          <p>Ringkasan jumlah fasilitas yang tampil dan distribusinya.</p>
+          <p>Ringkasan jumlah seluruh data, data yang sedang tampil, serta distribusi per kategori fasilitas.</p>
         </article>
         <article>
           <span>04</span>
           <h3>Accessibility Module</h3>
-          <p>Disiapkan untuk nearest facility, shortest path, atau skor aksesibilitas.</p>
+          <p>Panel pratinjau analisis aksesibilitas untuk menyorot origin, batas kalurahan, dan konsep fasilitas terdekat.</p>
         </article>
       </div>
 

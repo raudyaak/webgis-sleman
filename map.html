@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8z+3xg9F1T+0PpmbJ6Bp1Q7P1D8y+7g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -21,7 +22,7 @@
       <a class="brand" href="index.html">
         <span class="brand-mark">D</span>
         <span class="brand-copy">
-          <strong>Depok Spatial</strong>
+          <strong>Facility Access</strong>
           <small>Public Facility WebGIS</small>
         </span>
       </a>
@@ -101,6 +102,24 @@
         </section>
 
         <section class="sidebar-block">
+          <span class="field-label">Kalurahan Explorer</span>
+          <div class="village-focus-list">
+            <button class="village-focus" data-village="Caturtunggal">
+              <strong>Caturtunggal</strong>
+              <span>Fokus batas administrasi dan fasilitas</span>
+            </button>
+            <button class="village-focus" data-village="Condongcatur">
+              <strong>Condongcatur</strong>
+              <span>Tampilkan poligon dan data fasilitas</span>
+            </button>
+            <button class="village-focus" data-village="Maguwoharjo">
+              <strong>Maguwoharjo</strong>
+              <span>Zoom ke wilayah dan sorot batasnya</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="sidebar-block">
           <span class="field-label">Quick statistics</span>
           <div class="stats-grid">
             <article>
@@ -156,11 +175,11 @@
       <section id="accessPanel" class="access-panel hidden">
         <button id="closeAccessPanel" class="panel-close">×</button>
         <span class="eyebrow">ACCESSIBILITY MODULE</span>
-        <h2>Konsep analisis versi final</h2>
+        <h2>Preview accessibility workflow</h2>
         <p>
-          Centroid kalurahan atau titik origin dipasangkan dengan fasilitas tujuan melalui
-          jaringan jalan. Nilai jarak jaringan kemudian digunakan untuk membandingkan
-          tingkat aksesibilitas antarwilayah.
+          Modul ini memperlihatkan konsep dasar analisis aksesibilitas, yaitu menghubungkan
+          origin pada kalurahan terpilih dengan fasilitas tujuan melalui jaringan jalan untuk
+          mengevaluasi kedekatan layanan publik.
         </p>
 
         <div class="access-flow">
